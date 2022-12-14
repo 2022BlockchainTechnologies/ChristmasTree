@@ -8,7 +8,7 @@ With this smart contract, you can buy 5 different decorations for your Christmas
 
 ## Usage
 
-To use the smart contract, make sure to use the provided `christmasTree.json` or the address `0x280EEd114e61d250A0aE5C0f7eFC1181a10bBC74`. After doing so, you have access to buying the decorations.
+To use the smart contract, make sure to use the provided `christmasTree.json`, which can be found in the `build/contracts` folder, or the address `0x280EEd114e61d250A0aE5C0f7eFC1181a10bBC74`. After doing so, you have access to buying the decorations.
 As all decorations vary in price, you can use the `allDecorations()` function to see the prices.
 To see, which decorations you already own, you can use the `ownedDecorations()` function. If you want to buy decorations, you not only need to pay the right price, but also know which ID your decoration has. You can find the ID and price in the `allDecorations()` function, or in the table provided below:
 
