@@ -33,3 +33,14 @@ And to buy decorations, you can use this syntax. We tested it with 100.000 Wei a
 
 With real values it would look like this:
 `instance.buyDecoration(0, {from: "0x4910c6f466A442E1895F15Fe7FCc82C8e9b14944", value: web3.utils.toWei("0.1"), gas:100000 })`
+
+# Bonus - Frontend
+
+If you cloned our project, there is a step of commands to use. We start off deploying the contract first. For this, make sure that Ganache is running in the background and use this command:
+`npx truffle migrate --network development`
+
+After the contract is deployed, we go ahead and install the necessary dependency for the frontend with:
+`npm install`
+
+Then, we can start the frontend with:
+`npm run dev`

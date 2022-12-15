@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "name": "Lametta",
+    "price": "0,1 ETH",
+    "priceFloat": 100000000000000000
+  },
+  {
+    "id": 1,
+    "name": "Lights",
+    "price": "0,2 ETH",
+    "priceFloat": 200000000000000000
+  },
+  {
+    "id": 2,
+    "name": "Ornamet",
+    "price": "0,3 ETH",
+    "priceFloat": 300000000000000000
+  },
+  {
+    "id": 3,
+    "name": "Chocolate",
+    "price": "0,4 ETH",
+    "priceFloat": 400000000000000000
+  },
+  {
+    "id": 4,
+    "name": "Star",
+    "price": "5 ETH",
+    "priceFloat": 5000000000000000000
+  }
+]

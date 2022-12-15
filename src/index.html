@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Christmas Tree</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+          <h1 class="text-center">Your Christmas Tree</h1>
+          <hr />
+        </div>
+      </div>
+
+      <div id="tree" class="text-center">
+        <img
+          class="img-rounded img-center"
+          style="width: 450px; height: 500px; margin-left: auto"
+          src="images/tree.jpg"
+        />
+      </div>
+
+      <div id="decoRow" class="row">
+        <!-- AVAILABLE DECORATIONS LOAD HERE -->
+      </div>
+    </div>
+
+    <div id="decoTemplate" style="display: none">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="panel panel-default panel-deco">
+          <div class="panel-body">
+            <strong>ID</strong>: <span class="deco-id">0</span><br />
+            <strong>Name</strong>: <span class="deco-name">Lametta</span><br />
+            <strong>Price</strong>: <span class="deco-price">0,1 ETH</span><br /><br />
+            <button class="btn btn-default btn-buy" type="button" data-id="0">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
